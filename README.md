@@ -10,5 +10,8 @@ square=([a**2 for a in numbers])
 print(square)
 
 #3
+list4 = ['Mike','','Emma', '','Kelly', '', 'Brad']
+result4=[a for a in list4 if a!='']
+print(result4)
 
 
