@@ -67,5 +67,14 @@ add= a+b+c+d+e+f
 print(add)
 
 #12
-
+given=[2, 23, 24, 51, 46, 67]
+odd=[]
+even=[]
+for x in given:
+    if x%2==0:
+        even.append(x)
+    else:
+        odd.append(x)
+print(odd)
+print(even)
 
